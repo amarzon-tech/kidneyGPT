@@ -774,7 +774,7 @@ async function sendMsg() {
           'x-api-key': 'sk-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',
           'anthropic-version': '2023-06-01',
           'anthropic-dangerous-direct-browser-access': 'true'
-        },,
+        },
       body: JSON.stringify({model:'claude-sonnet-4-20250514', max_tokens:1500, system:SYSTEM, messages:msgs})
     });
     const d = await res.json();
